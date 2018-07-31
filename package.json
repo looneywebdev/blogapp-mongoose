@@ -1,0 +1,32 @@
+{
+  "name": "blogapp-mongoose",
+  "version": "1.0.0",
+  "description": "blogapp-mongoose",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/looneywebdev/blogapp-mongoose.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/looneywebdev/blogapp-mongoose/issues"
+  },
+  "homepage": "https://github.com/looneywebdev/blogapp-mongoose#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "express": "^4.16.3",
+    "faker": "^4.1.0",
+    "mocha": "^5.2.0",
+    "mongoose": "^5.2.6",
+    "morgan": "^1.9.0"
+  }
+}
