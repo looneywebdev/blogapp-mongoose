@@ -1,32 +1,24 @@
 {
-  "name": "blogapp-mongoose",
+  "name": "node-restaurants-app-mongoose",
   "version": "1.0.0",
-  "description": "blogapp-mongoose",
-  "main": "server.js",
-  "directories": {
-    "test": "test"
-  },
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "mocha"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/looneywebdev/blogapp-mongoose.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/looneywebdev/blogapp-mongoose/issues"
-  },
-  "homepage": "https://github.com/looneywebdev/blogapp-mongoose#readme",
   "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.0.13",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
     "chai": "^4.1.2",
     "chai-http": "^4.0.0",
-    "express": "^4.16.3",
     "faker": "^4.1.0",
-    "mocha": "^5.2.0",
-    "mongoose": "^5.2.6",
-    "morgan": "^1.9.0"
+    "mocha": "^5.2.0"
   }
 }
